@@ -7,14 +7,14 @@ body{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .result-grid, .input-grid {
-  grid-template-columns: 180px 120px 80px;
+  grid-template-columns: 100px 80px 60px;
 }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .result-grid, .input-grid {
-    grid-template-columns: 140px 120px 80px;
+    grid-template-columns: 150px 120px 100px;
   }
 }
 
@@ -48,7 +48,7 @@ body{
 .result-grid, .input-grid
   {
   display: grid;
-  grid-template-columns: 170px 140px 100px;
+  grid-template-columns: 150px 120px 100px;
   column-gap: 10px;
   row-gap: 10px;
 
@@ -62,7 +62,6 @@ body{
 .input, .date{
   font-size: 15px;
   padding: 10px;
-  width: 80px;
   background-color: rgb(170, 238, 202);
   border: none;
   border-radius: 10px;
