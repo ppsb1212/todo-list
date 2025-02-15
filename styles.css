@@ -7,7 +7,7 @@ body{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .result-grid, .input-grid {
-  grid-template-columns: 140px 120px 80px;
+  grid-template-columns: 180px 120px 80px;
 }
 }
 
