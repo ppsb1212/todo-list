@@ -1,10 +1,4 @@
-let todoList = [{
-  name: 'make dinner',
-  dueDate: '2025-02-15'
-},{
-  name: 'go gym',
-  dueDate: '2025-02-15'
-}];
+let todoList = [];
 
 renderTodo();
 
@@ -13,14 +7,13 @@ function renderTodo(){
   todoList.forEach((list,index) =>{
 
   let html = `
-    <p>
-      ${list.name}
-      ${list.dueDate}
-      <button onclick="
-        todoList.splice(${index},1);
-        renderTodo();
-      ">Delete</button>
-    </p>
+    <div class="todo-name">${list.name}</div>
+    <div class="todo-date">${list.dueDate}</div>
+    <button onclick="
+      todoList.splice(${index},1);
+      renderTodo();
+    " class="todo-delete">Delete</button>
+    
     `;
   todoListHtml += html;
 });

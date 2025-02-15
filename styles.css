@@ -1,0 +1,58 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(217, 255, 248);
+}
+
+.heading{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.result-grid, .input-grid
+  {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+
+}
+
+.input-grid{
+  margin-bottom: 10px;
+  
+}
+
+.input, .date{
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(170, 238, 202);
+  border: none;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.add-button{
+  background-color: rgb(151, 255, 71);
+  border-radius: 10px;
+  border-color: rgb(151, 255, 71);
+  border-width: 2px;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.todo-name, .todo-date{
+  background-color: rgb(255, 182, 173);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.todo-delete{
+  border-color: rgb(224, 26, 0);
+  border-radius: 10px;
+  background-color: rgb(255, 75, 51);
+  font-size: 15px;
+  border-width: 2px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
