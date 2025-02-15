@@ -4,46 +4,38 @@ body{
 }
 
 
-/* Apply styles for screens larger than 1024px (desktops) */
-@media (min-width: 1024px) {
-  body {
-    font-size: 18px;
-    background-color: lightblue;
-  }
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
+  .result-grid, .input-grid {
+  grid-template-columns: 100px 120px 80px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
- body {
-    font-size: 16px;
+  .result-grid, .input-grid {
+    grid-template-columns: 140px 120px 80px;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   body {
-    font-size: 16px;
+    
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   body {
-    font-size: 18px;
+    
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   body {
-    font-size: 20px;
+    
   }
 }
 
