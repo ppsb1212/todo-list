@@ -8,7 +8,6 @@ body{
 @media (min-width: 1024px) {
   body {
     font-size: 18px;
-    background-color: lightblue;
   }
 }
 
@@ -56,7 +55,7 @@ body{
 .result-grid, .input-grid
   {
   display: grid;
-  grid-template-columns: 200px 150px 100px;
+  grid-template-columns: 170px 140px 100px;
   column-gap: 10px;
   row-gap: 10px;
 
