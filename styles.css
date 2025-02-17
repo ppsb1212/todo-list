@@ -33,6 +33,10 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.date{
+  width: 50px;
+}
+
 .add-button{
   background-color: rgb(151, 255, 71);
   border-radius: 10px;
