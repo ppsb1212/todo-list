@@ -28,7 +28,7 @@ body{
   font-size: 15px;
   padding: 10px;
   background-color: rgb(170, 238, 202);
-  
+  border: none;
   border-radius: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
